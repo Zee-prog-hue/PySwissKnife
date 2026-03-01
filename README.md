@@ -29,7 +29,7 @@ This project is built for learning, sharing, and helping others with simple Pyth
 ```bash
 cd clock
 python clock.py
-
+```
 
 ## ✅ Day 2 – Stop Watch CLI
 
