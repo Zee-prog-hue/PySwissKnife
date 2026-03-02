@@ -6,7 +6,7 @@ A collection of small but powerful Python CLI utilities designed for productivit
 Currently includes:
 
 - **Clock** – Display current time in the terminal.  
-- **Stopwatch** – Measure elapsed time. *(Coming soon)*  
+- **Stopwatch** – Measure elapsed time.  
 - **Timer** – Countdown timer. *(Coming soon)*  
 - **QR Code Generator** – Generate QR codes from text. *(Coming soon)*  
 - **Typing Speed Test** – Measure your typing speed. *(Coming soon)*  
@@ -29,3 +29,26 @@ This project is built for learning, sharing, and helping others with simple Pyth
 ```bash
 cd clock
 python clock.py
+```
+
+## ✅ Day 2 – Stop Watch CLI
+
+**Stop Watch CLI Features:**
+- counts time but don't show it (i am going to learn threadiing for that)
+- in last shows elapsed time
+
+**Run Stop Watch CLI **
+```bash
+cd stopwatch
+python stopwatch_py.py
+```
+
+## ✅ Day 3 – Timer CLI
+- This is simplest timer showing updated time
+- Also have beep sound (with import winsound)
+
+ **Run Timer CLI **
+ ```bash
+cd timer
+python timer_p.py
+```
