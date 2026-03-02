@@ -34,7 +34,7 @@ python clock.py
 ## ✅ Day 2 – Stop Watch CLI
 
 **Stop Watch CLI Features:**
-- counts time but don't show it (i am going to learn threadiing for that)
+- counts time and shows it (learned threading for this guys)
 - in last shows elapsed time
 
 **Run Stop Watch CLI **
