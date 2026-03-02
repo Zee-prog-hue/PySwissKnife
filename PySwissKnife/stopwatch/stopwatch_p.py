@@ -1,25 +1,40 @@
 import time
 import os
+import threading
+
+running = False
+start_time = None
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def stopwatch():
-    clear_screen()
-    input("Press Enter to START the stopwatch...")
+def calculate_time(start_time):
+    elapsed_time = time.time() - start_time
+    return time.strftime("%H:%M:%S", time.gmtime(elapsed_time))
 
+def timer():
+    global running, start_time
+    while running:
+        clear_screen()
+        print("Stopwatch running... Elapsed time:",
+              calculate_time(start_time))
+        time.sleep(1)
+
+if __name__ == "__main__":
+    input("Press Enter to START the stopwatch...")
+    
+    running = True
     start_time = time.time()
 
-    input("Stopwatch running... Press Enter to STOP...")
+    timer_thread = threading.Thread(target=timer)
+    timer_thread.start()
 
-    end_time = time.time()
-    elapsed = end_time - start_time
-
-    formatted_time = time.strftime("%H:%M:%S", time.gmtime(elapsed))
+    input("Press Enter to STOP the stopwatch...")
+    
+    running = False
+    timer_thread.join()
 
     clear_screen()
     print("Stopwatch stopped.")
-    print("Elapsed Time:", formatted_time)
-
-if __name__ == "__main__":
-    stopwatch()
+    print("Final Time:", calculate_time(start_time - 1))  # Subtracting 1 second to account for the last sleep in the timer thread
+    
