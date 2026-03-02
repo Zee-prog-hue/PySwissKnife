@@ -34,10 +34,21 @@ python clock.py
 ## ✅ Day 2 – Stop Watch CLI
 
 **Stop Watch CLI Features:**
-- counts time but show it (i am going to learn threadiing for that)
+- counts time but don't show it (i am going to learn threadiing for that)
 - in last shows elapsed time
 
 **Run Stop Watch CLI **
 ```bash
 cd stopwatch
 python stopwatch_py.py
+```
+
+## ✅ Day 3 – Timer CLI
+- This is simplest timer showing updated time
+- Also have beep sound (with import winsound)
+
+ **Run Timer CLI **
+ ```bash
+cd timer
+python timer_p.py
+```
