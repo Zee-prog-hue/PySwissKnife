@@ -16,3 +16,8 @@ Pillow         # Image handling (used with qrcode or screenshots)
 
 # Optional for pretty console output
 rich           # For colored/pretty terminal output
+
+qrcode[pil]
+
+
+lorem-text
