@@ -61,4 +61,14 @@ python timer_p.py
 ```bash
 cd qr_generator
 python qr_generator_p.py
+
+```
+
+## ✅ Day 5 – Typing Test CLI
+- test your typing skills easliy guys!!!
+
+**Run Typing Test CLI **
+```bash
+cd typing_test
+python typing_test_p.py
 ```
