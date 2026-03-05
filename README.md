@@ -8,8 +8,8 @@ Currently includes:
 - **Clock** – Display current time in the terminal.  
 - **Stopwatch** – Measure elapsed time.  
 - **Timer** – Countdown timer.  
-- **QR Code Generator** – Generate QR codes from text. *  
-- **Typing Speed Test** – Measure your typing speed. *(Coming soon)*  
+- **QR Code Generator** – Generate QR codes from text.   
+- **Typing Speed Test** – Measure your typing speed.   
 - **Internet Speed Test** – Check download/upload speed. *(Coming soon)*  
 
 This project is built for learning, sharing, and helping others with simple Python tools.
