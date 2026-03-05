@@ -17,7 +17,12 @@ Pillow         # Image handling (used with qrcode or screenshots)
 # Optional for pretty console output
 rich           # For colored/pretty terminal output
 
-qrcode[pil]
+qrcode[pil]   # QR code generation with Pillow support (for creating QR codes with images)
 
 
-lorem-text
+lorem-text   # For generating placeholder text (if needed for demo purposes)
+
+speedtest-cli # CLI for testing download/upload speed (for the internet speed test feature)
+
+keyboard      # To capture keyboard input (for the typing speed test)
+time          # Standard Python module, no need to install (for the typing speed test)
