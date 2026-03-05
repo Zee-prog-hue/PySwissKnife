@@ -8,9 +8,10 @@ Currently includes:
 - **Clock** – Display current time in the terminal.  
 - **Stopwatch** – Measure elapsed time.  
 - **Timer** – Countdown timer.  
-- **QR Code Generator** – Generate QR codes from text. *  
-- **Typing Speed Test** – Measure your typing speed. *(Coming soon)*  
-- **Internet Speed Test** – Check download/upload speed. *(Coming soon)*  
+- **QR Code Generator** – Generate QR codes from text.   
+- **Typing Speed Test** – Measure your typing speed.   
+- **Internet Speed Test** – Check download/upload speed.
+- **Making Final product** - Will be for Windows and Android(Optional) 
 
 This project is built for learning, sharing, and helping others with simple Python tools.
 
@@ -57,8 +58,29 @@ python timer_p.py
 - This is simplest but heavily error protected QR code generator
 - With Amazing knowledge guys!!!!
 
-**Run QR Code Generator CLI **
+**Run QR Code Generator CLI**
 ```bash
 cd qr_generator
 python qr_generator_p.py
+
 ```
+
+## ✅ Day 5 – Typing Test CLI
+- test your typing skills easliy guys!!!
+
+**Run Typing Test CLI**
+```bash
+cd typing_test
+python typing_test_p.py
+```
+
+## ✅ Day 6 – Internet Speed Test CLI
+- Test your ultra fast or ultra slow internet
+- Much easier then thought
+
+**Run Internet Speed Test CLI**
+```bash
+cd internet_speed
+python internet_speed_p.py
+```
+
