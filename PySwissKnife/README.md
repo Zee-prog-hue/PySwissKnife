@@ -9,7 +9,7 @@ Currently includes:
 - **Stopwatch** – Measure elapsed time.  
 - **Timer** – Countdown timer.  
 - **QR Code Generator** – Generate QR codes from text. *  
-- **Typing Speed Test** – Measure your typing speed. *(Coming soon)*  
+- **Typing Speed Test** – Measure your typing speed. 
 - **Internet Speed Test** – Check download/upload speed. *(Coming soon)*  
 
 This project is built for learning, sharing, and helping others with simple Python tools.
@@ -72,3 +72,4 @@ python qr_generator_p.py
 cd typing_test
 python typing_test_p.py
 ```
+
