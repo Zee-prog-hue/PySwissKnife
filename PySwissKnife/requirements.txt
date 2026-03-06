@@ -26,3 +26,6 @@ speedtest-cli # CLI for testing download/upload speed (for the internet speed te
 
 keyboard      # To capture keyboard input (for the typing speed test)
 time          # Standard Python module, no need to install (for the typing speed test)
+
+threading    # used to run some functions at the same time 
+itertools    # used to make the loading animation in internet_speed feature
