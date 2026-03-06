@@ -84,3 +84,17 @@ cd internet_speed
 python internet_speed_p.py
 ```
 
+## ✅ Day 7 – PySwissKnife CLI
+- All seet guys now just need to make it execute able using pyinstaller
+- to setup pyinstaller
+```bash
+pip install pyinstaller
+pyinstaller --onefile --console --name PySwissKnife swissknife.py
+```
+
+**Run PySwissKnife CLI**
+1. Execute the PySwissKnife.exe in dist folder
+2. ```bash
+   cd PySwissKnife
+   python swissknife.py
+   ```
