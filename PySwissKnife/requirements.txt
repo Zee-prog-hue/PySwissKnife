@@ -1,0 +1,31 @@
+# GUI / utilities
+tkinter        # Standard GUI library (usually comes with Python)
+
+# QR Code generation
+qrcode[pil]    # QR code generation with Pillow support
+
+# Internet Speed Test
+speedtest-cli  # CLI for testing download/upload speed
+
+# Typing Speed Test
+keyboard       # To capture keyboard input
+time           # Standard Python module, no need to install
+
+# Optional for screenshots/GIF creation (LinkedIn demo)
+Pillow         # Image handling (used with qrcode or screenshots)
+
+# Optional for pretty console output
+rich           # For colored/pretty terminal output
+
+qrcode[pil]   # QR code generation with Pillow support (for creating QR codes with images)
+
+
+lorem-text   # For generating placeholder text (if needed for demo purposes)
+
+speedtest-cli # CLI for testing download/upload speed (for the internet speed test feature)
+
+keyboard      # To capture keyboard input (for the typing speed test)
+time          # Standard Python module, no need to install (for the typing speed test)
+
+threading    # used to run some functions at the same time 
+itertools    # used to make the loading animation in internet_speed feature
